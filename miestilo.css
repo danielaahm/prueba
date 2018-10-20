@@ -1,0 +1,70 @@
+h1{
+   text-align: center;
+   color: white;
+   font-size: 300;
+   
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.imgHeader{
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    position: relative;
+    height:"30%";
+    width:"50%";
+}
+
+.container{
+    padding: 0;
+    width: auto;
+}
+
+li, ul{
+    color: rgb(134, 130, 130);
+    font-size: 36;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.imgPerfil{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+h3{
+    font-size: 100;
+    text-align: center;
+}
+
+h5{
+    color: #363636;
+}
+
+#headerBackground{
+    background:url("header.png") no-repeat 0% 0%;
+    background-size:inherit;
+    background-position: center;
+
+}
+
+
+
+
+/* @media (max-width: 600px){
+    .container{
+
+    }
+} */
